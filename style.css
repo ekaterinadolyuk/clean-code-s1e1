@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.images img {
+.images .main_image {
   width: 100%;
 }
 .images .more_information {
@@ -34,7 +34,8 @@ body {
 .task_row_wrapper {
   display: flex;
 }
-ul {
+#to_do,
+#completed_tasks {
   margin:0;
   padding: 0px;
 }
@@ -125,20 +126,22 @@ button.remove img:hover {
   transform: rotateZ(0);
 }
 /* Completed */
-ul#completed_tasks label {
+#completed_tasks label {
   text-decoration: line-through
   color: #888;
 }
 /* Edit Task */
-ul li input[type=text] {
+#completed_tasks li input[type=text],
+#to_do li input[type=text] {
   display: none
 }
 
-ul li.edit_mode input[type=text] {
+#completed_tasks li.edit_mode input[type=text],
+#to_do li.edit_mode input[type=text] {
   display: inline-block;
-  width:224px
+  width: 224px;
 }
 
-ul li.edit_mode label {
+#to_do li.edit_mode label {
   display: none;
 }
