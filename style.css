@@ -16,11 +16,15 @@ body {
 .images .more_information {
   font-family: fantasy, cursive;
 }
+
 @media (max-width: 768px) {
+
   .images { 
     text-align: center;
   }
+
 }
+
 .main_section {
   display: block;
   width: 500px;
@@ -127,7 +131,7 @@ button.remove img:hover {
 }
 /* Completed */
 #completed_tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 /* Edit Task */
