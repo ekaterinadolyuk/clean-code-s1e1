@@ -33,23 +33,23 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task_row_wrapper {
   display: flex;
 }
 #to_do,
 #completed_tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 input,
 button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -119,7 +119,7 @@ li > label {
   width: 226px;
 }
 li > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 button.remove img {
   height: 2em;
@@ -137,7 +137,7 @@ button.remove img:hover {
 /* Edit Task */
 #completed_tasks li input[type=text],
 #to_do li input[type=text] {
-  display: none
+  display: none;
 }
 
 #completed_tasks li.edit_mode input[type=text],
