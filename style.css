@@ -15,6 +15,7 @@
 
 .banner .banner__image {
   width: 100%;
+  vertical-align: top;
 }
 
 .banner .banner__link {
