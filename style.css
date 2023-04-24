@@ -166,17 +166,15 @@
 
 /* Edit Task */
 
-#completed-tasks .list-item .input[type=text],
-#to-do .list-item .input[type=text] {
+.list-item .input[type=text] {
   display: none;
 }
 
-#completed-tasks .list-item.edit_mode .input[type=text],
-#to-do .list-item.edit-mode .input[type=text] {
+.list-item.edit-mode .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-#to-do .list-item.edit-mode .label {
+.list-item.edit-mode .label {
   display: none;
 }
